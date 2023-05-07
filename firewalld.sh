@@ -7,7 +7,6 @@ firewall-cmd --permanent --zone=public --add-rich-rule='rule family=ipv4 source 
 firewall-cmd --permanent --zone=public --add-service=samba
 firewall-cmd --permanent --zone=public --add-port=3128/tcp
 firewall-cmd --permanent --zone=public --add-port=3129/tcp
-firewall-cmd --permanent --zone=public --add-port=3127/tcp
 firewall-cmd --permanent --zone=public --add-port=3126/tcp
 firewall-cmd --permanent --zone=public --add-port=443/tcp
 firewall-cmd --permanent --zone=public --add-port=80/tcp
